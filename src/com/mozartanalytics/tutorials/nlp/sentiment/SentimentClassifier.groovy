@@ -69,8 +69,17 @@ def test(classifier, tweets) {
  * { text: "some text", category: "positive" }
  */
 def loadTrainingData(){
-    []
+    // This is not a usual training set. In real life we need to feed the model a richer corpus of data.
+    [
+        [text: "RestaurantX is the best restaurant in town. the food presentation is beautiful and the flavors wonderful", category: "positive"],
+        [text: "RestaurantY is the worst restaurant in town. the food presentation is disgusting and the flavors terrible", category: "negative"]
+    ]
 }
 def loadTestData(){
-    []
+    // This is not a usual test set. In real life we need to feed the model a richer corpus of data.
+    // Testing data should not be part of the training data.
+    [
+        [text: "TheaterM is the best theater in town. the place is beautiful and the service is wonderful", category: "positive"],
+        [text: "TheaterN is the worst theater in town. the place is disgusting and the service is terrible", category: "negative"]
+    ]
 }
