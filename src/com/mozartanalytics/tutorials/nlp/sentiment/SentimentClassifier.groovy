@@ -60,7 +60,7 @@ def test(classifier, tweets) {
 
     println "  Testing Cases  : " + testingCases
     println "  Correct #      : " + numCorrect
-    println "          %      : " + ((double)numCorrect)/(double)testingCases
+    println "          %      : " + Math.round(((double)numCorrect)/(double)testingCases * 100)
 }
 
 /**

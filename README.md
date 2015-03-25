@@ -3,7 +3,7 @@ sentiment-lingpipe
 
 Source code from blog post demonstrating LingPipe Sentiment classifier with Groovy
 
-Link to article: TBD
+Link to article: http://mozartanalytics.com/measuring-social-sentiment-using-lingpipe-and-groovy/
 
 LingPipe Version : 4.1.0
 
